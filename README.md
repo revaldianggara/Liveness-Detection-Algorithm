@@ -11,8 +11,8 @@ The challenge requires the development of a liveness detection system that class
 
 ## Requirements
 - Python 3.x
-- DLIB for face recognition
-- OpenCV
+- ...
+- ...
 
 ## Installation
 1. Clone the repository:
