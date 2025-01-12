@@ -1,5 +1,8 @@
 # Liveness Detection Algorithm
 
+## Demo
+![Liveness Detection Demo](https://link-to-your-gif.com/demo.gif)
+
 ## Overview
 This project implements a Liveness Detection algorithm using Python to prevent spoofing during a face recognition process. The goal is to determine whether the face presented is real or a static photo/video.
 
@@ -23,6 +26,3 @@ The challenge requires the development of a liveness detection system that class
 3. download dlib predicor: https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat
 
 4. python main.py
-
-## Demo
-https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/demo.gif
