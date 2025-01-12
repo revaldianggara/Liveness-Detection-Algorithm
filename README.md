@@ -10,16 +10,19 @@ The challenge requires the development of a liveness detection system that class
 - **Active Detection**: Optionally include an active function where a random question is posed on the screen, and inference is made based on the user's response.
 
 ## Requirements
-- Python 3.x
-- ...
-- ...
+- Python 3.11
 
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/liveness-detection.git
-   cd liveness-detection
+   cd liveness-detectionss
 
 2. pip install -r requirements.txt
 
-3. python main.py
+3. download dlib predicor: https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat
+
+4. python main.py
+
+## Demo
+https://github.com/revaldianggara/Liveness-Detection-Algorithm/2025-01-13 02-29-18.gif
