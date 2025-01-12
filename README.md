@@ -25,4 +25,4 @@ The challenge requires the development of a liveness detection system that class
 4. python main.py
 
 ## Demo
-https://github.com/revaldianggara/Liveness-Detection-Algorithm/demo.gif
+https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/demo.gif
