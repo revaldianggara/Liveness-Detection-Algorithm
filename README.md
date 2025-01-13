@@ -4,7 +4,7 @@
 ![Liveness Detection Demo](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/demo.gif)
 
 ## Workflows
-![Workflows](https://github.com/revaldianggara/Liveness-Detection-Algorithm/workflows.png)
+![Workflows](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/workflows.png)
 
 ## Overview
 This project implements a Liveness Detection algorithm using Python to prevent spoofing during a face recognition process. The goal is to determine whether the face presented is real or a static photo/video.
