@@ -1,7 +1,7 @@
 # Liveness Detection Algorithm
 
 ## Demo
-![Liveness Detection Demo](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/demo.gif)
+![Liveness Detection Demo](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/demo2.gif)
 
 ## Workflows
 ![Workflows](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/workflows.png)
