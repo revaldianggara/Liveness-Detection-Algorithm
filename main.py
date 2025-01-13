@@ -28,7 +28,7 @@ class LivenessDetection:
         """
         # self.prompts.rotate(-1)  # Move to the next prompt in the deque
         # self.current_prompt = self.prompts[0]  # Update the current prompt
-        cooldown = 1  # in seconds
+        cooldown = 2  # in seconds
         current_time = time.time()
         if current_time - self.last_prompt_time > cooldown:  # Check if cooldown has passed
             self.prompts.rotate(-1)  # Move to the next prompt in the deque
@@ -124,7 +124,8 @@ class LivenessDetection:
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = self.detector(gray)
         if len(faces) == 0:
-            return []
+            # return []
+            cv2.putText(frame, "Unidentified", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
         results = []
         for face in faces:
