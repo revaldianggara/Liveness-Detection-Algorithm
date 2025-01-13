@@ -18,8 +18,8 @@ The challenge requires the development of a liveness detection system that class
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/liveness-detection.git
-   cd liveness-detectionss
+   git clone https://github.com/revaldianggara/Liveness-Detection-Algorithm.git
+   cd Liveness-Detection-Algorithm
 
 2. pip install -r requirements.txt
 
