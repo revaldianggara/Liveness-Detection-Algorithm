@@ -28,4 +28,17 @@ The challenge requires the development of a liveness detection system that class
 
 3. download dlib predicor: https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat
 
-4. python main.py
+## Run Code
+1. Passive Mode (default)
+```bash
+python main.py --active_mode False
+```
+
+2. Active Mode
+```bash
+python main.py --active_mode True
+```
+
+Press 'a' to enable Active Mode.
+Press 'p' to enable Passive Mode.
+Press 'q'to quit the program.
