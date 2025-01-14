@@ -30,7 +30,7 @@ The challenge requires the development of a liveness detection system that class
 
 ## Run Code
 ```bash
-python main.py --active_mode False
+python main.py
 ```
 Press 'a' to enable Active Mode.
 Press 'p' to enable Passive Mode.
