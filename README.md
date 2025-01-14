@@ -32,6 +32,10 @@ The challenge requires the development of a liveness detection system that class
 ```bash
 python main.py
 ```
+
+## Usage
 Press 'a' to enable Active Mode.
+
 Press 'p' to enable Passive Mode.
+
 Press 'q'to quit the program.
