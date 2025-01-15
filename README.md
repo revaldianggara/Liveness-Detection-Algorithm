@@ -1,5 +1,8 @@
 # Liveness Detection Algorithm
 
+## Evaluation Result
+![Confusion Matrix](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/confusion_matrix.png)
+
 ## Demo
 ![Liveness Detection Demo](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/demo2.gif)
 
@@ -25,27 +28,32 @@ git clone https://github.com/revaldianggara/Liveness-Detection-Algorithm.git
 cd Liveness-Detection-Algorithm
 ```
 
-2. pip install -r requirements.txt
+2.  install required package
+```bash
+pip install -r requirements.txt
+```
 
-3. run script for download dlib predicora and dataset nuaaa
+3. Run Data Pipeline: Download the required Dlib predictor and the NUAA Face Anti-Spoofing Dataset by running:
 ```bash
 python get_data_predictor.py 
 ```
 
-4. running
-for evaluate metrics accuracy for liveness detection algorithm
-
-## Run Code
+4. Evaluate the Algorithm: Run the evaluation script to test the algorithm's performance on the dataset:
 ```bash
-python main.py
+python evaluate.py 
+```
+
+5. Real-Time Camera Testing:
+```bash
+python main.py 
 ```
 
 ## Usage
-Press 'a' to enable Active Mode.
+   - Press 'a' to enable Active Mode.
 
-Press 'p' to enable Passive Mode.
+   - Press 'p' to enable Passive Mode.
 
-Press 'q'to quit the program.
+   - Press 'q'to quit the program.
 
 ## About Dataset
 Face Anti-Spoofing Dataset
@@ -54,7 +62,7 @@ X.Tan, Y.Li, J.Liu and L.Jiang.
 Face Liveness Detection from A Single Image with Sparse Low Rank Bilinear Discriminative Model,
 In: Proceedings of 11th European Conference on Computer Vision (ECCV'10), Crete, Greece. September 2010
 
-![Workflows](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/dataset.png)
+![dataset-overview](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/dataset.png)
 
 source: 
    1. https://www.kaggle.com/datasets/aleksandrpikul222/nuaaaa

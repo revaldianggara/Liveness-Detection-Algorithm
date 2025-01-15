@@ -1,0 +1,59 @@
+=== Liveness Detection Evaluation Results ===
+
+Timestamp: 20250115_123311
+
+Dataset Path: data/test
+
+Total Images Processed: 90
+
+Metrics:
+Accuracy: 0.9333
+Precision: 0.8824
+Recall: 1.0000
+F1 Score: 0.9375
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+        Fake       1.00      0.87      0.93        45
+        Real       0.88      1.00      0.94        45
+
+    accuracy                           0.93        90
+   macro avg       0.94      0.93      0.93        90
+weighted avg       0.94      0.93      0.93        90
+
+
+Failed Cases Analysis:
+Total Failed Predictions: 6
+
+Detailed Failed Cases:
+
+File: 0001_0001_00_00_01_0.jpg
+True Label: Fake
+Predicted: Real
+Confidence: 0.77
+
+File: 0001_0001_00_00_01_102.jpg
+True Label: Fake
+Predicted: Real
+Confidence: 0.74
+
+File: 0001_0001_00_00_01_107.jpg
+True Label: Fake
+Predicted: Real
+Confidence: 0.72
+
+File: 0016_0016_01_01_03_100.jpg
+True Label: Fake
+Predicted: Real
+Confidence: 0.72
+
+File: 0016_0016_01_01_03_105.jpg
+True Label: Fake
+Predicted: Real
+Confidence: 0.72
+
+File: 0016_0016_01_01_03_110.jpg
+True Label: Fake
+Predicted: Real
+Confidence: 0.72
