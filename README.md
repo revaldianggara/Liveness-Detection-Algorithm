@@ -47,10 +47,7 @@ X.Tan, Y.Li, J.Liu and L.Jiang.
 Face Liveness Detection from A Single Image with Sparse Low Rank Bilinear Discriminative Model,
 In: Proceedings of 11th European Conference on Computer Vision (ECCV'10), Crete, Greece. September 2010
 
-
-Train: 1743 real / 1748 fake
-
-Test: 3362 real / 5761 fake
+![Workflows](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/dataset.png)
 
 source: 
    1. https://www.kaggle.com/datasets/aleksandrpikul222/nuaaaa
