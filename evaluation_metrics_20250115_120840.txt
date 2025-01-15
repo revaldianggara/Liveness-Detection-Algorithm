@@ -1,0 +1,205 @@
+=== Liveness Detection Evaluation Results ===
+
+Timestamp: 20250115_120840
+
+Dataset Path: data/test
+
+Total Images Processed: 90
+
+Metrics:
+Accuracy: 0.5111
+Precision: 0.5056
+Recall: 1.0000
+F1 Score: 0.6716
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+        Fake       1.00      0.02      0.04        45
+        Real       0.51      1.00      0.67        45
+
+    accuracy                           0.51        90
+   macro avg       0.75      0.51      0.36        90
+weighted avg       0.75      0.51      0.36        90
+
+
+Failed Cases Analysis:
+Total Failed Predictions: 44
+
+Detailed Failed Cases:
+
+File: 0001_0001_00_00_01_0.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0001_0001_00_00_01_102.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0001_0001_00_00_01_107.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0002_0002_01_00_01_0.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0002_0002_01_00_01_102.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0002_0002_01_00_01_107.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0003_0003_01_00_01_10.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0003_0003_01_00_01_104.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0003_0003_01_00_01_109.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0004_0004_01_00_01_0.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0004_0004_01_00_01_102.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0004_0004_01_00_01_107.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0005_0005_00_00_01_10.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0005_0005_00_00_01_104.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0005_0005_00_00_01_109.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0006_0006_00_00_01_100.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0006_0006_00_00_01_105.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0006_0006_00_00_01_110.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0007_0007_01_00_01_0.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0007_0007_01_00_01_102.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0007_0007_01_00_01_107.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0008_0008_00_00_01_10.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0008_0008_00_00_01_104.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0008_0008_00_00_01_109.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0009_0009_01_00_01_100.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0009_0009_01_00_01_105.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0009_0009_01_00_01_11.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0010_0010_01_01_03_0.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0010_0010_01_01_03_102.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0010_0010_01_01_03_107.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0011_0011_01_01_03_0.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0011_0011_01_01_03_105.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0011_0011_01_01_03_114.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0012_0012_01_01_03_0.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0012_0012_01_01_03_104.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0014_0014_01_01_03_0.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0014_0014_01_01_03_102.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0014_0014_01_01_03_107.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0015_0015_01_01_03_1.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0015_0015_01_01_03_103.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0015_0015_01_01_03_111.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0016_0016_01_01_03_100.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0016_0016_01_01_03_105.jpg
+True Label: Fake
+Predicted: Real
+
+File: 0016_0016_01_01_03_110.jpg
+True Label: Fake
+Predicted: Real

@@ -26,7 +26,11 @@ The challenge requires the development of a liveness detection system that class
 
 2. pip install -r requirements.txt
 
-3. download dlib predicor: https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat
+3. python get_data_predictor.py 
+this script for download dlib sahep predicor dataset nuaaa
+
+4. running
+for evaluate metrics accuracy for liveness detection algorithm
 
 ## Run Code
 ```bash
@@ -35,3 +39,19 @@ python main.py --active_mode False
 Press 'a' to enable Active Mode.
 Press 'p' to enable Passive Mode.
 Press 'q'to quit the program.
+
+## About Dataset
+Face Anti-Spoofing Dataset
+
+X.Tan, Y.Li, J.Liu and L.Jiang.
+Face Liveness Detection from A Single Image with Sparse Low Rank Bilinear Discriminative Model,
+In: Proceedings of 11th European Conference on Computer Vision (ECCV'10), Crete, Greece. September 2010
+
+
+Train: 1743 real / 1748 fake
+
+Test: 3362 real / 5761 fake
+
+source: 
+   1. https://www.kaggle.com/datasets/aleksandrpikul222/nuaaaa
+   2. https://www.researchgate.net/publication/262405100_Face_Liveness_Detection_from_a_Single_Image_with_Sparse_Low_Rank_Bilinear_Discriminative_Model

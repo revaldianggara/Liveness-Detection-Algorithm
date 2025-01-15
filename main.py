@@ -70,7 +70,8 @@ class LivenessDetection:
 
     def calculate_ear(self, eye):
         """
-        Calculate Eye Aspect Ratio (EAR).
+        Calculate Eye Aspect Ratio (EAR). 
+        EAR formula
         """
         A = np.linalg.norm(np.array([eye[1].x, eye[1].y]) - np.array([eye[5].x, eye[5].y]))
         B = np.linalg.norm(np.array([eye[2].x, eye[2].y]) - np.array([eye[4].x, eye[4].y]))
@@ -80,6 +81,16 @@ class LivenessDetection:
     def analyze_vertical_motion(self, landmarks):
         """
         Analyze vertical motion (for nodding) between consecutive frames.
+
+        Face contour (17 points, from chin to jaw).
+        Left and right eyebrows (5 points for each eyebrow).
+        Nose (9 points).
+        Left and right eyes (6 points for each eye).
+        Mouth (20 points, including outer and inner lips)
+
+        The 68-point landmark model is often used because:
+        High detail: Provides enough information to analyze facial expressions, movements, or positions.
+        Wide standard: Many applications such as emotion detection, eye tracking, or facial motion analysis are based on this distribution.
         """
         if self.previous_landmarks is None:
             self.previous_landmarks = landmarks
