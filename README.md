@@ -53,28 +53,28 @@ python main.py
    - Press 'q'to quit the program.
 
 ## Evaluation Result
+   ### Dataset Path
+   Dataset Path: data/test
 
-### Confusion Matrix
-![Confusion Matrix](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/confusion_matrix.png)
+   ### Confusion Matrix
+   ![Confusion Matrix](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/confusion_matrix.png)
 
-### Dataset Path
-Dataset Path: data/test
 
-### Summary Matrix
-Total Images Processed: 90
-- Accuracy: 0.9333
-- Precision: 0.8824 
-- Recall: 1.0000
-- F1 Score: 0.9375
+   ### Detailed Classification Report
+   |              | precision | recall | f1-score | support |
+   |--------------|-----------|--------|----------|----------|
+   | Fake         | 1.00      | 0.87   | 0.93     | 45      |
+   | Real         | 0.88      | 1.00   | 0.94     | 45      |
+   | accuracy     |           |        | 0.93     | 90      |
+   | macro avg    | 0.94      | 0.93   | 0.93     | 90      |
+   | weighted avg | 0.94      | 0.93   | 0.93     | 90      |
 
-### Detailed Classification Report
-|              | precision | recall | f1-score | support |
-|--------------|-----------|--------|----------|----------|
-| Fake         | 1.00      | 0.87   | 0.93     | 45      |
-| Real         | 0.88      | 1.00   | 0.94     | 45      |
-| accuracy     |           |        | 0.93     | 90      |
-| macro avg    | 0.94      | 0.93   | 0.93     | 90      |
-| weighted avg | 0.94      | 0.93   | 0.93     | 90      |
+   ### Summary Matrix
+   Total Images Processed: 90
+   - Accuracy: 0.9333
+   - Precision: 0.8824 
+   - Recall: 1.0000
+   - F1 Score: 0.9375
 
 ## About Dataset
 Face Anti-Spoofing Dataset
