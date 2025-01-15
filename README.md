@@ -9,31 +9,6 @@ The challenge requires the development of a liveness detection system that class
 - **Passive Detection**: Detect if the user is holding a static photo or a phone displaying an image/video.
 - **Active Detection**: Optionally include an active function where a random question is posed on the screen, and inference is made based on the user's response.
 
-## Evaluation Result
-
-### Confusion Matrix
-![Confusion Matrix](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/confusion_matrix.png)
-
-### Dataset Path
-Dataset Path: data/test
-
-### Summary Matrix
-Total Images Processed: 90
-Accuracy: 0.9333
-Precision: 0.8824
-Recall: 1.0000
-F1 Score: 0.9375
-
-Detailed Classification Report:
-              precision    recall  f1-score   support
-
-        Fake       1.00      0.87      0.93        45
-        Real       0.88      1.00      0.94        45
-
-    accuracy                           0.93        90
-   macro avg       0.94      0.93      0.93        90
-weighted avg       0.94      0.93      0.93        90
-
 ## Demo
 ![Liveness Detection Demo](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/demo2.gif)
 
@@ -55,7 +30,7 @@ cd Liveness-Detection-Algorithm
 pip install -r requirements.txt
 ```
 
-3. Run Data Pipeline: Download the required Dlib predictor and the NUAA Face Anti-Spoofing Dataset by running:
+3. Run Data Pipeline: Download the required Dlib predictor and the raw NUAA Face Anti-Spoofing Dataset by running:
 ```bash
 python get_data_predictor.py 
 ```
@@ -76,6 +51,30 @@ python main.py
    - Press 'p' to enable Passive Mode.
 
    - Press 'q'to quit the program.
+
+## Evaluation Result
+
+### Confusion Matrix
+![Confusion Matrix](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/confusion_matrix.png)
+
+### Dataset Path
+Dataset Path: data/test
+
+### Summary Matrix
+Total Images Processed: 90
+- Accuracy: 0.9333
+- Precision: 0.8824 
+- Recall: 1.0000
+- F1 Score: 0.9375
+
+### Detailed Classification Report
+|              | precision | recall | f1-score | support |
+|--------------|-----------|--------|----------|----------|
+| Fake         | 1.00      | 0.87   | 0.93     | 45      |
+| Real         | 0.88      | 1.00   | 0.94     | 45      |
+| accuracy     |           |        | 0.93     | 90      |
+| macro avg    | 0.94      | 0.93   | 0.93     | 90      |
+| weighted avg | 0.94      | 0.93   | 0.93     | 90      |
 
 ## About Dataset
 Face Anti-Spoofing Dataset
