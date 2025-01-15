@@ -64,6 +64,7 @@ In: Proceedings of 11th European Conference on Computer Vision (ECCV'10), Crete,
 
 ![dataset-overview](https://github.com/revaldianggara/Liveness-Detection-Algorithm/blob/main/dataset.png)
 
-source: 
-   1. https://www.kaggle.com/datasets/aleksandrpikul222/nuaaaa
-   2. https://www.researchgate.net/publication/262405100_Face_Liveness_Detection_from_a_Single_Image_with_Sparse_Low_Rank_Bilinear_Discriminative_Model
+source dataset and predictor: 
+   1. https://www.researchgate.net/publication/262405100_Face_Liveness_Detection_from_a_Single_Image_with_Sparse_Low_Rank_Bilinear_Discriminative_Model
+   2. https://www.kaggle.com/datasets/aleksandrpikul222/nuaaaa
+   3. https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat
