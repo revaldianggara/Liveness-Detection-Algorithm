@@ -41,6 +41,7 @@ python main.py
 Press 'a' to enable Active Mode.
 
 Press 'p' to enable Passive Mode.
+
 Press 'q'to quit the program.
 
 ## About Dataset
