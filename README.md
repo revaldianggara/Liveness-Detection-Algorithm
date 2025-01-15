@@ -34,9 +34,12 @@ for evaluate metrics accuracy for liveness detection algorithm
 
 ## Run Code
 ```bash
-python main.py --active_mode False
+python main.py
 ```
+
+## Usage
 Press 'a' to enable Active Mode.
+
 Press 'p' to enable Passive Mode.
 Press 'q'to quit the program.
 
