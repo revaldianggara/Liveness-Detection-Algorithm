@@ -20,14 +20,17 @@ The challenge requires the development of a liveness detection system that class
 
 ## Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/revaldianggara/Liveness-Detection-Algorithm.git
-   cd Liveness-Detection-Algorithm
+```bash
+git clone https://github.com/revaldianggara/Liveness-Detection-Algorithm.git
+cd Liveness-Detection-Algorithm
+```
 
 2. pip install -r requirements.txt
 
-3. python get_data_predictor.py 
-this script for download dlib sahep predicor dataset nuaaa
+3. run script for download dlib predicora and dataset nuaaa
+```bash
+python get_data_predictor.py 
+```
 
 4. running
 for evaluate metrics accuracy for liveness detection algorithm
